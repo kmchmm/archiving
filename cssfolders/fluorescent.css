@@ -1,0 +1,268 @@
+button, .input_button{
+    background: #04befe;
+    color: #262626;
+    border: 1px solid #fff;
+}
+button:hover, .input_button:hover{
+    background: #04befe;
+    color: #262626;
+    border: 1px solid #04befe;
+}
+.diffbutton{
+    background: #04befe;
+    color: #262626;
+    border: 1px solid #04befe;
+}
+.diffbutton:hover{
+    background: #04befe;
+    color: #262626;
+    border: 1px solid #262626;
+}
+.dash_footer{
+    color: #fff;
+}
+main {
+	margin-top:85px;
+	padding: 2rem 1.5rem;
+	background: #161d20;
+	min-height: calc(100vh - 90px);
+}
+.dashboard-main {
+	margin-top:60px;
+	padding: 2rem 1.5rem;
+	background: #161d20;
+	min-height: calc(100vh - 80px);
+}
+header{
+    background: #05161D;
+}
+header h1{
+    color: #04befe;
+}
+
+
+.bars{
+	width: 30px;
+	height: 4px;
+	background: transparent;
+	border-radius: 5px;	
+	transition: all .5s ease-in-out;
+	display: inline-block;
+}
+.bars::before,
+.bars::after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #04befe;
+	border-radius: 5px;
+	transition: all .5s ease-in-out;
+}
+.bars::before{
+	transform: rotate(45deg) translate(-10px, 0px);
+}
+.bars::after{
+	transform: rotate(-45deg) translate(0px, -10px);
+}
+.burgerBtn:hover{
+	cursor: pointer;
+}
+
+/*Animation of hamburger bars*/
+.burgerBtn.open .bars{
+	transform: translate(0px,-17px);
+	background: #04befe;
+}
+.burgerBtn.open .bars::before{
+	transform: translate(0px,18px);
+}
+.burgerBtn.open .bars::after{
+	transform: translate(0px,9px);
+}
+
+.user-wrapper h4{
+    color: #04befe;
+}
+
+
+/* CLOSE */
+
+.close, .addclose, .createclose {
+	display: flex;
+	justify-content: flex-end;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	width: 100%;
+	background:#04befe;
+	padding-right: 30px;
+}
+  
+.close:hover, .addclose:hover, .createclose:hover,
+.close:focus .addclose:focus, .createclose:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+/*SELECT*/
+
+.select-selected {
+	background-color: #04befe;
+}
+.select-items{
+    background-color: #04befe;
+    
+}
+.select-items div,.select-selected{
+    color: #05161D;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    background: #05161D;
+}
+
+.sidebar-brand{
+    color: #04befe;
+}
+.sidebar-menu a{
+    color: #04befe;
+}
+.sidebar-menu a.active{
+    color: #262626;
+    background-color: #04befe;
+}
+
+
+
+/*DASHBOARD*/
+
+.record-list{
+    background: #05161D;
+}
+.record-list h1{
+    color: #04befe;
+}
+.record-list h2{
+    color: #C7C1F5;
+}
+.record-list:last-child{
+    background: #04befe;
+    color: #05161D;
+}
+.record-list-number{
+    color: #fff;
+}
+.record-list-division, .upper_td_name, .date_records{
+    color: #fff;
+}
+.record-list-division a{
+    color: #fff;
+}
+.record-list-division a:hover, .upper_td_name:hover{
+    color: #fff;
+}
+
+.upper-card-single {
+	display: flex;
+	justify-content: space-between;
+	background: #04befe;
+	padding: 1rem 1rem;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.table td{
+    color: black;
+}
+
+
+/*LINKS*/
+.link-container h2{
+    background: #04befe;
+}
+
+/*FOLDERS*/
+.folder-container h2{
+    background: #04befe;
+}
+
+
+/*PROFILE*/
+
+.image-right{
+    opacity: 0;
+}
+.image-right-pastel{
+    opacity: 0;
+}
+.image-right-tecoturg{
+    opacity: 0;
+}
+.image-right-fluorescent{
+    opacity: 1;
+}
+
+.image-lower-left{
+    opacity: 0;
+}
+.image-lower-left-pastel{
+    opacity: 0;
+}
+.image-lower-left-tecoturg{
+    opacity: 0;
+}
+.image-lower-left-fluorescent{
+    opacity: 1;
+}
+
+.image-lower-right{
+    opacity: 0;
+}
+.image-lower-right-pastel{
+    opacity: 0;
+}
+.image-lower-right-tecoturg{
+    opacity: 0;
+}
+.image-lower-right-fluorescent{
+    opacity: 1;
+}
+
+.upper-profile-part h4{
+    color: #04befe;
+}
+.profilecancel, .photocancel{
+    color: #04befe;
+}
+.profilecancel:hover, .photocancel:hover{
+    color: #262626;
+}
+
+/*LINKS AND FOLDERS*/
+.select_all input:checked ~ .checkmark {
+    background-color: #04befe;
+    color: #262626;
+}
+.select_all .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #262626;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.folder-commands i{
+    background-color: #04befe;
+    color: #262626;
+}
+
+/*SIDEBAR HOVER*/
+.sidebar ul li .tooltip-1, .sidebar ul li .tooltip-2, .sidebar ul li .tooltip-3, .sidebar ul li .tooltip-4, .sidebar ul li .tooltip-5{
+    background: #04befe;
+    color: #262626;
+}
+

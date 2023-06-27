@@ -1,0 +1,53 @@
+/*Sidebar design*/
+.sidebar ul li .tooltip-1{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	display: none;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar-menu ul li:hover .tooltip-1{
+	transition: all 0.5s ease;
+	opacity: 1;
+	margin-top: 25%;
+}
+.sidebar ul li .tooltip-2{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar-menu ul li:hover .tooltip-2{
+	transition: all 0.5s ease;
+	opacity: 1;
+	margin-top: 110%;
+}
+.sidebar.active ul li .tooltip-1{
+	display: block;
+}
+
+.sidebar.active ul li .tooltip-2{
+	display: block;
+}

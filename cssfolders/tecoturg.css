@@ -1,0 +1,219 @@
+button, .input_button{
+    background: #7fe7dc;
+    color: #262626;
+}
+button:hover, .input_button:hover{
+    background: #7fe7dc;
+    color: #262626;
+    border: 1px solid #7fe7dc;
+}
+header {
+    background: #316879;
+}
+header h1{
+    color: #fff;
+}
+
+.bars::before,
+.bars::after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	border-radius: 5px;
+	transition: all .5s ease-in-out;
+}
+.bars::before{
+	transform: rotate(45deg) translate(-10px, 0px);
+}
+.bars::after{
+	transform: rotate(-45deg) translate(0px, -10px);
+}
+.burgerBtn:hover{
+	cursor: pointer;
+}
+
+/*Animation of hamburger bars*/
+.burgerBtn.open .bars{
+	transform: translate(0px,-17px);
+	background: #fff;
+}
+.burgerBtn.open .bars::before{
+	transform: translate(0px,18px);
+}
+.burgerBtn.open .bars::after{
+	transform: translate(0px,9px);
+}
+
+
+/* CLOSE */
+
+.close, .addclose, .createclose {
+	display: flex;
+	justify-content: flex-end;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	width: 100%;
+	background:#7fe7dc;
+	padding-right: 30px;
+}
+  
+.close:hover, .addclose:hover, .createclose:hover,
+.close:focus .addclose:focus, .createclose:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+/*SELECT*/
+
+.select-selected {
+	background-color: #7fe7dc;
+
+}
+.select-items{
+    background-color: #7fe7dc;
+}
+.select-items div,.select-selected{
+    color: #262626;
+}
+
+
+
+.sidebar{
+    background-color: #316879;
+
+}
+
+.sidebar-brand h1{
+    color: #fff;
+}
+.sidebar-brand span {
+    color: #fff;
+}
+.sidebar-menu a{
+    color: #fff;
+}
+.sidebar-menu a.active{
+    background: #f47a60;
+    color: #fff;
+}
+
+
+/*DASHBOARD*/
+
+.record-list h1{
+    color: #316879;
+}
+.record-list h2{
+    color: #7fe7dc;
+}
+.record-list:last-child{
+    background: #7fe7dc;
+    color: #262626;
+}
+.record-list-division a{
+    color: black;
+}
+.record-list-division a:hover, .upper_td_name:hover{
+    color: black;
+}
+.upper-card-single {
+	display: flex;
+	justify-content: space-between;
+	background: #7fe7dc;
+	padding: 1rem 1rem;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.user-wrapper h4{
+    color: #fff;
+}
+.user-wrapper small{
+    color: #ced7d8;
+}
+
+/*LINKS*/
+.link-container h2{
+    background: #7fe7dc;
+    color: #262626;
+}
+
+/*FOLDERS*/
+.folder-container h2{
+    background: #7fe7dc;
+    color: #262626;
+}
+
+/*PROFILE*/
+
+.upper-profile-part h4{
+    color: #000;
+}
+
+.image-right{
+    opacity: 0;
+}
+.image-right-pastel{
+    opacity: 0;
+}
+.image-right-tecoturg{
+    opacity: 1;
+}
+.image-right-fluorescent{
+    opacity: 0;
+}
+
+.image-lower-left{
+    opacity: 0;
+}
+.image-lower-left-pastel{
+    opacity: 0;
+}
+.image-lower-left-tecoturg{
+    opacity: 1;
+}
+.image-lower-left-fluorescent{
+    opacity: 0;
+}
+
+.image-lower-right{
+    opacity: 0;
+}
+.image-lower-right-pastel{
+    opacity: 0;
+}
+.image-lower-right-tecoturg {
+    opacity: 1;
+}
+.image-lower-right-fluorescent{
+    opacity: 0;
+}
+
+.profilecancel, .photocancel{
+    color: #7fe7dc;
+}
+.profilecancel:hover, .photocancel:hover{
+    color: #262626;
+}
+
+
+/*LINKS AND FOLDERS*/
+.select_all input:checked ~ .checkmark {
+    background-color: #7fe7dc;
+}
+
+.folder-commands i{
+    background-color: #7fe7dc;
+    color: #262626;
+}
+
+
+/*SIDEBAR HOVER*/
+.sidebar ul li .tooltip-1, .sidebar ul li .tooltip-2, .sidebar ul li .tooltip-3, .sidebar ul li .tooltip-4, .sidebar ul li .tooltip-5{
+    background: #f47a60;
+    color: #fff;
+}

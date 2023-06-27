@@ -1,0 +1,79 @@
+
+/*DASHBOARD*/
+
+.upper-card-single {
+	display: flex;
+	justify-content: space-between;
+	background: #aed6dc;
+	padding: 1rem 1rem;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.card-single h1 a{
+    color: #4a536b;
+}
+.user-wrapper h4{
+    color: #fff;
+}
+.user-wrapper small{
+    color: #cfd1d3;
+}
+
+/*LINKS*/
+.link-container h2{
+    background: #aed6dc;
+    color: #4a536b;
+}
+
+/*FOLDERS*/
+.folder-container h2{
+    background: #aed6dc;
+    color: #4a536b;
+}
+
+.folder-commands i{
+	background-color: #aed6dc;
+	color: #4a536b;
+}
+
+
+/*PROFILE*/
+
+
+.image-right{
+    opacity: 1;
+}
+.image-right-pastel{
+    opacity: 0;
+}
+.image-right-tecoturg{
+    opacity: 0;
+}
+.image-right-fluorescent{
+    opacity: 0;
+}
+.image-lower-left{
+    opacity: 1;
+}
+.image-lower-left-pastel{
+    opacity: 0;
+}
+.image-lower-left-tecoturg{
+    opacity: 0;
+}
+.image-lower-left-fluorescent{
+    opacity: 0;
+}
+
+.image-lower-right{
+    opacity: 1;
+}
+.image-lower-right-pastel{
+    opacity: 0;
+}
+.image-lower-right-tecoturg{
+    opacity: 0;
+}
+.image-lower-right-fluorescent{
+    opacity: 0;
+}

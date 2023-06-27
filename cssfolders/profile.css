@@ -1,0 +1,477 @@
+main{
+	height: 100vh;
+}
+.profile-main{
+	height: 40vh;
+	width: 100%;
+	position: absolute;
+	top: 23vh;
+	display: flex;
+	overflow: hidden;
+}
+.upper-profile-part{
+	padding: 20px;
+	font-size: 30px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	color: #4a536b;
+}
+.profile-left{
+	position: relative;
+	flex-basis: 25%;
+	background: #fff;
+	
+}
+.profile-left p{
+	text-align: justify;
+	text-align-last:auto;
+	padding: 0 20px;
+}
+.cover-image{
+	position: relative;
+	width: 100%;
+	height: 40%;
+	background-color: #fff;
+	opacity: .8;
+}
+.profile-picture-circle img{
+	width: 100px;
+	position: absolute;
+	top: 100px;
+	left: 190px;
+	background-color: #fff;
+	border-radius: 100px;
+	
+}
+
+.profile-picture-circle span i{
+	position: absolute;
+	top: 170px;
+	left: 260px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 100px;
+	padding: 5px;
+	color: #fff;
+	background-color: rgb(165, 165, 165);
+
+}
+.profile-picture-circle h5{
+	margin-top: 60px;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+.profile-picture-circle i{
+	cursor: pointer;
+}
+.profile-left-p{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 15px;
+	justify-content:center;
+	align-items: center;
+}
+.profile-left-p > span{
+	padding: 0 10px;
+}
+.profile-left-flex-item + .profile-left-flex-item{
+	border-left: solid 1px #333;
+
+}
+.profile-left-p p{
+	text-align: center;
+}
+#profileButton{
+	position: absolute;
+	left: 185px;
+	bottom: 15px;
+	padding: 12px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+/* PROGRESS */
+.profile-right{
+	position: relative;
+	background: #fff;
+	margin-left: 2%;
+	flex-basis: 55%;
+	padding: 20px;
+}
+.profile-right.active{
+	flex-basis: 66.8%;
+}
+.profile-progress h4{
+	font-size: 20px;
+}
+.profile-progress img{
+	position: absolute;
+	width: 350px;
+	right: 10px;
+	top: 30%;
+}
+.profile-progress-words{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 15px;
+	justify-content: space-evenly;
+	margin-right: 500px;
+	min-height: 30vh;
+}
+
+.progress-flex-items + .progress-flex-items{
+	border-left: solid 1px #333;
+}
+.profile-progress-words > span{
+	padding: 0 30px;
+}
+
+
+
+/* Graphs */
+.profile-graphs-container{
+	position: relative;
+	margin-top: 45vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+}
+.profile-graphs{
+	padding: 20px;
+	height: 30vh;
+	background-color: #fff;
+}
+.profile-graphs h4{
+	font-size: 18px;
+}
+.upper-profile-graph-content{
+	position: relative;
+}
+.lower-left img{
+	position: absolute;
+	width: 150px;
+	right: 10px;
+	top: 500%;
+}
+.lower-right img{
+	position: absolute;
+	width: 150px;
+	right: 0;
+	top: 500%;
+}
+.middle-data-graph-content .data-square{
+	position: absolute;
+	top: 12%;
+	right: 63%;
+}
+.middle-data-graph-content span{
+	position: absolute;
+	top: 10%;
+	right: 53%;
+}
+.data-square-l{
+	margin-right: 17px;
+}
+.data-square-m{
+	margin-top: 40px;
+}
+.data-square + .data-square{
+	margin-top: 40px;
+}
+
+.data-square-p + .data-square-p{
+	margin-top: 40px;
+}
+.data-square, .folder-square{
+	padding: 6px;
+	background-color: black;
+	height: 5px;
+}
+
+.middle-folder-graph-content .folder-square{
+	position: absolute;
+	top: 12%;
+	right: 12%;
+}
+.middle-folder-graph-content span{
+	position: absolute;
+	top: 10%;
+	right: 2%;
+}
+
+/*Sidebar design*/
+.sidebar ul li .tooltip-1{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	display: none;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar-menu ul li:hover .tooltip-1{
+	transition: all 0.5s ease;
+	opacity: 1;
+	top: 2%;
+}
+
+.sidebar ul li .tooltip-2{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar ul li:hover .tooltip-2{
+	transition: all 0.5s ease;
+	opacity: 1;
+	top: 9.5%;
+}
+.sidebar ul li .tooltip-3{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar ul li:hover .tooltip-3{
+	transition: all 0.5s ease;
+	opacity: 1;
+	top: 17%;
+}
+.sidebar ul li .tooltip-4{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar ul li:hover .tooltip-4{
+	transition: all 0.5s ease;
+	opacity: 1;
+	top: 25.9%;
+}
+.sidebar ul li .tooltip-5{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	height: 35px;
+	width: 122px;
+	background-color: #fff;
+	color: #ff9a8d;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: 0;
+	opacity: 0;
+	display: none;
+}
+.sidebar ul li:hover .tooltip-5{
+	transition: all 0.5s ease;
+	opacity: 1;
+	top: 97.7%;
+}
+.sidebar.active ul li .tooltip-1{
+	display: block;
+}
+.sidebar.active ul li .tooltip-2{
+	display: block;
+}
+.sidebar.active ul li .tooltip-3{
+	display: block;
+}
+.sidebar.active ul li .tooltip-4{
+	display: block;
+}
+.sidebar.active ul li .tooltip-5{
+	display: block;
+}
+
+/* Modal */
+/* ADD MODAL */
+.profilemodal, .photomodal{
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	margin-top: 82px;	
+}
+
+
+  /* Modal Content */
+.profile-modal-content{
+	position: absolute;
+	background-color: #fefefe;
+	margin: auto;
+	width: 30%;
+	min-height: 100px;
+	height: auto;
+	left: 800px;
+	border-radius: 5px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*PHOTO MODAL*/
+.photo-modal-content{
+	position: absolute;
+	background-color: #fefefe;
+	margin: auto;
+	width: 30%;
+	min-height: 100px;
+	height: auto;
+	left: 800px;
+	border-radius: 5px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Theme selection */
+.profile-theme-upper{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding: 10px 10px 10px 0;
+}
+.profile-modal-content button{
+	padding: 10px 15px;
+}
+.profile-modal-content form{
+	color: #000;
+}
+.themeform{
+	padding: 20px 25px;
+}
+
+.profilecancel, .photocancel{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color:#4a536b;
+}
+.profilecancel:hover, .photocancel:hover{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #fff;
+}
+.themeform input{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+	padding: 5px;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+/*select*/
+
+/*style the arrow inside the select element:*/
+.profile-select{
+	width: 7%;
+	font-size: 15px;
+	position: absolute;
+	right: 20px;
+	top: 130px;
+	display: grid;
+
+}
+.profile-select input{
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	border: 1px solid #fff;
+	background: #fff;
+	color: #4a536b;
+}
+.profile-select input:hover{
+	cursor: pointer;
+}
+
+.select-selected:after {
+	position: absolute;
+	content: "";
+	top: 19px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #fff transparent transparent transparent;
+}
+
+  /*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+	border-color: transparent transparent #fff transparent;
+	top: 13px;
+}
+
+
+
+.data-box{
+	background: #CBF5C1;
+	padding: 20px 0px;
+	margin-top: 40px;
+}
+.data-box span{
+	width: 100%;
+	font-size: 25px;
+	padding-left: 140px;
+}
+.folder-box{
+	background: #F5C1C1;
+	margin-top: 40px;
+	padding: 20px 0px;
+}
+.folder-box span{
+	width: 100%;
+	font-size: 25px;
+	padding-left: 160px;
+}
